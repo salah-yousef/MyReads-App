@@ -19,7 +19,8 @@ class Shelf extends Component {
                   <li key={book.id}>
                     <Book 
                       book = {book}
-                      moveBook = {moveBook} 
+                      moveBook = {moveBook}
+                      shelf = {shelf} 
                     />
                   </li>
                 ))
