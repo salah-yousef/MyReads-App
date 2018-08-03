@@ -61,7 +61,7 @@ class Search extends Component {
           <div className="search-books-results">
             <ol className="books-grid">
               {
-                 this.state.availableBooks!=null && this.state.availableBooks!= undefined && this.state.availableBooks.length >0 &&
+                 this.state.availableBooks!==null && this.state.availableBooks!== undefined && this.state.availableBooks.length >0 &&
                   this.state.availableBooks.map(availableBooks => {
                     let shelf = "none"
                     this.props.books.map( book => (
